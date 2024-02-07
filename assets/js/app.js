@@ -1,4 +1,4 @@
-/* Template Name: Codash - Coworking HTML Template
+/* Template Name: Apna-Space - Coworking HTML Template
    Author: Mahesh Joshi
    Version: 1.0
    File Description: Main JS file of the template
