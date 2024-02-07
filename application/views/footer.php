@@ -80,9 +80,9 @@
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
                         <p class="mb-0 text-foot">
-                            <script>document.write(new Date().getFullYear())</script> © Codash. Design with <i
+                            <script>document.write(new Date().getFullYear())</script> © Co-Working. Design with <i
                                 class="mdi mdi-heart text-danger"></i> by <a href="javascript:void(0)"
-                                target="_blank" class="text-reset">Co-working</a>.
+                                target="_blank" class="text-reset">Mahesh Joshi</a>.
                         </p>
                     </div><!--end col-->
                 </div><!--end row-->
