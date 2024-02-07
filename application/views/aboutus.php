@@ -9,8 +9,7 @@
                             <div class="breadcrumb-position">
                                 <nav aria-label="breadcrumb" class="d-inline-block">
                                     <ul class="breadcrumb bg-white rounded shadow-md mb-0">
-                                        <li class="breadcrumb-item"><a href="">Co-Working</a></li>
-                                        <li class="breadcrumb-item"><a href="#">Page</a></li>
+                                        <li class="breadcrumb-item"><a href="">Apna-Space</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">About us</li>
                                     </ul>
                                 </nav>
@@ -81,7 +80,7 @@
                     <div class="col-12">
                         <div class="section-title text-center mb-4 pb-2">
                             <h4 class="title mb-4">We provide Different types of office</h4>
-                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                            <p class="text-muted mb-0 para-desc mx-auto">Apna-Space offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -184,7 +183,7 @@
                     <div class="col-12">
                         <div class="section-title text-center mb-3">
                             <h4 class="title mb-4">Our Services</h4>                            
-                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                            <p class="text-muted mb-0 para-desc mx-auto">Apna-Space offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -273,7 +272,7 @@
                     <div class="col-12">
                         <div class="section-title text-center mb-4 pb-2">
                             <h4 class="title mb-4">Here from our members</h4>
-                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                            <p class="text-muted mb-0 para-desc mx-auto">Apna-Space offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -385,7 +384,7 @@
                     <div class="col-12">
                         <div class="section-title text-center mb-4 pb-2">
                             <h4 class="title mb-4">News & Events</h4>
-                            <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                            <p class="text-muted mb-0 para-desc mx-auto">Apna-Space offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -453,7 +452,7 @@
                         <div class="col-12">
                             <div class="section-title text-center mb-4 pb-2">
                                 <h4 class="title text-white mb-4">Subscribe our Newsletter</h4>
-                                <p class="text-white-50 mx-auto para-desc mb-0">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
+                                <p class="text-white-50 mx-auto para-desc mb-0">Apna-Space offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
                             </div>
                         </div><!--end col-->
 
