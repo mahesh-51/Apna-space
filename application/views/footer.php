@@ -122,15 +122,15 @@
                                         Remember Me
                                     </label>
                                 </div>
-                                <p class="forgot-pass mb-0"><a href="page-reset-password.html"
+                                <p class="forgot-pass my-2"><a href="page-reset-password.html"
                                         class="text-dark fw-bold">Forgot password ?</a></p>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100">Create Account</button>
+                                <button class="btn btn-primary w-100">Login</button>
                             </div>
                             <div class="col-12 text-center">
-                                <p class="mb-0 mt-3"><small class="text-dark me-2">Already have an account ?</small> <a
-                                        href="" class="text-dark fw-bold">Sign in</a></p>
+                                <p class="mb-0 mt-3"><small class="text-dark me-2">Don't have an account ?</small> <a
+                                        href="<?php echo base_url() . 'sign-up' ?>" class="text-dark fw-bold">Sign Up</a></p>
                             </div>
                         </div>
                     </form>
