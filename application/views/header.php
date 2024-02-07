@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from shreethemes.in/codash/layouts/index-ten.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Feb 2024 09:56:09 GMT -->
-
 <head>
     <meta charset="utf-8" />
     <title>CO-WORKING</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="App and Saas Landing Template" />
     <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4" />
-    <meta content="Shreethemes" name="author" />
+    <meta content="Co-Working" name="author" />
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!-- Bootstrap css -->

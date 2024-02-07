@@ -81,8 +81,8 @@
                     <div class="col-12 text-center">
                         <p class="mb-0 text-foot">
                             <script>document.write(new Date().getFullYear())</script> © Codash. Design with <i
-                                class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/"
-                                target="_blank" class="text-reset">Shreethemes</a>.
+                                class="mdi mdi-heart text-danger"></i> by <a href="javascript:void(0)"
+                                target="_blank" class="text-reset">Co-working</a>.
                         </p>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -158,7 +158,4 @@
     <script src="assets/js/plugins.init.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
-
-<!-- Mirrored from shreethemes.in/codash/layouts/index-ten.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Feb 2024 09:56:10 GMT -->
-
 </html>

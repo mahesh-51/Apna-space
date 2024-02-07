@@ -1,8 +1,7 @@
-/* Template Name: Appdesk - App and Saas Landing Template
-   Author: UniqueCrew
-   E-mail: uniquecrewdesign@gmail.com
+/* Template Name: Co-Working
+   Author: Mahesh Joshi
+   E-mail: Mahesh@gmail.com
    Version: 1.0.0
-   Created: March 2020
    File Description: Main JS file of the template
 */
 

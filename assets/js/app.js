@@ -1,7 +1,6 @@
 /* Template Name: Codash - Coworking HTML Template
-   Author: Shreethemes
+   Author: Mahesh Joshi
    Version: 1.0
-   Created: August 2020
    File Description: Main JS file of the template
 */
 

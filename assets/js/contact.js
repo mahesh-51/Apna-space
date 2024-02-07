@@ -1,9 +1,7 @@
 /* Template Name: Starty - Multipurpose HTML Template
-   Author: Shreethemes
-   E-mail: shreethemes@gmail.com
-   Created: August 2021
+   Author: Mahesh Joshi
+   E-mail: Mahesh@gmail.com
    Version: 1.0.0
-   Updated: February 2021
    File Description: Contact Form Js
 */
 function validateForm() {
