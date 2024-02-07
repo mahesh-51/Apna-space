@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="App and Saas Landing Template" />
     <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4" />
-    <meta content="Co-Working" name="author" />
+    <meta content="Apna-Space" name="author" />
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!-- Bootstrap css -->

@@ -6,7 +6,7 @@
                 <div class="col-md-7 col-12">
                     <div class="title-heading">
                         <h1 class="display-5 text-white mb-4">Find Perfect Working <br> Space Near You!</h1>
-                        <p class="para-desc text-white-50">Codash offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity</p>
+                        <p class="para-desc text-white-50">Apna-Space offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity</p>
                         <div class="row">
                             <div class="col-lg-10">
                                 <div class="subcribe-form mt-4">
@@ -44,7 +44,7 @@
                 <div class="col-12">
                     <div class="section-title text-center mb-3">
                         <h4 class="title mb-4">Our Benefits</h4>
-                        <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self
+                        <p class="text-muted mb-0 para-desc mx-auto">Apna-Space offer a wealth of advantages for self
                             starters, including networking opportunities, daily structure, and increased productivity.
                         </p>
                     </div>
@@ -147,7 +147,7 @@
                 <div class="col-12 text-center">
                     <div class="section-title mb-4 pb-2">
                         <h4 class="title mb-4">Our Spaces</h4>
-                        <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self
+                        <p class="text-muted mb-0 para-desc mx-auto">Apna-Space offer a wealth of advantages for self
                             starters, including networking opportunities, daily structure, and increased productivity.
                         </p>
                     </div>
@@ -309,7 +309,7 @@
                 <div class="col-12">
                     <div class="section-title text-center mb-4 pb-2">
                         <h4 class="title mb-4">Here from our members</h4>
-                        <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self
+                        <p class="text-muted mb-0 para-desc mx-auto">Apna-Space offer a wealth of advantages for self
                             starters, including networking opportunities, daily structure, and increased productivity.
                         </p>
                     </div>
@@ -504,7 +504,7 @@
                 <div class="col-12">
                     <div class="section-title text-center mb-4 pb-2">
                         <h4 class="title mb-4">Frequently asked questions</h4>
-                        <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self
+                        <p class="text-muted mb-0 para-desc mx-auto">Apna-Space offer a wealth of advantages for self
                             starters, including networking opportunities, daily structure, and increased productivity.
                         </p>
                     </div>
@@ -656,7 +656,7 @@
 
                                         <div class="col-md-6 col-12 mt-4 pt-md-2">
                                             <div class="section-title text-md-start">
-                                                <p class="text-white-50 para-desc">Codash offer a wealth of advantages
+                                                <p class="text-white-50 para-desc">Apna-Space offer a wealth of advantages
                                                     for self starters, including networking opportunities, daily
                                                     structure, and increased productivity.</p>
                                                 <a href="javascript:void(0)" class="text-light">Read More <i
@@ -682,7 +682,7 @@
                 <div class="col-12">
                     <div class="section-title text-center mb-4 pb-2">
                         <h4 class="title mb-4">Here from our members</h4>
-                        <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self
+                        <p class="text-muted mb-0 para-desc mx-auto">Apna-Space offer a wealth of advantages for self
                             starters, including networking opportunities, daily structure, and increased productivity.
                         </p>
                     </div>
@@ -816,7 +816,7 @@
                 <div class="col-12">
                     <div class="section-title text-center mb-4 pb-2">
                         <h4 class="title mb-4">News & Events</h4>
-                        <p class="text-muted mb-0 para-desc mx-auto">Codash offer a wealth of advantages for self
+                        <p class="text-muted mb-0 para-desc mx-auto">Apna-Space offer a wealth of advantages for self
                             starters, including networking opportunities, daily structure, and increased productivity.
                         </p>
                     </div>
