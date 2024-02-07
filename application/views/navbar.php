@@ -1,7 +1,7 @@
 <header id="topnav" class="defaultscroll sticky">
         <div class="container">
             <!-- Logo container-->
-            <a class="logo" href="index.html">
+            <a class="logo" href="<?php echo base_url() ?>">
                     <img src="assets/images/logo.png" class="l-dark" height="24" alt="">
                     <img src="assets/images/logo-light.png" class="l-light" height="24" alt="">
                 </a>
