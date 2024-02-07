@@ -1,11 +1,11 @@
  <!-- Back to home Start -->
         <div class="back-to-home rounded d-none d-sm-block">
-            <a href="index.html" class="text-white rounded d-inline-block text-center"><i data-feather="home" class="fea icon-sm"></i></a>
+            <a href="<?php echo base_url() ?>" class="text-white rounded d-inline-block text-center"><i data-feather="home" class="fea icon-sm"></i></a>
         </div>
         <!-- Back to home End -->
 
         <!-- Hero Start -->
-        <section class="user-pages d-flex align-items-center" style="background: url('images/home/user.jpg') center center;">
+        <section class="user-pages d-flex align-items-center" style="background: url('assets/images/home/user.jpg') center center;">
             <div class="bg-overlay"></div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -50,7 +50,7 @@
                                     </div>
                                     
                                     <div class="mx-auto">
-                                        <p class="mb-0 mt-3"><small class="text-dark me-2">Already have an account ?</small> <a href="page-login.html" class="text-dark fw-bold">Sign in</a></p>
+                                        <p class="mb-0 mt-3"><small class="text-dark me-2">Already have an account ?</small> <a href="<?php echo base_url() . 'login'?>" class="text-dark fw-bold">Sign in</a></p>
                                     </div>
                                 </div>
                             </form>

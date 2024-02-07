@@ -1,11 +1,11 @@
 <!-- Back to home Start -->
         <div class="back-to-home rounded d-none d-sm-block">
-            <a href="" class="text-white rounded d-inline-block text-center"><i data-feather="home" class="fea icon-sm"></i></a>
+            <a href="<?php echo base_url() ?>" class="text-white rounded d-inline-block text-center"><i data-feather="home" class="fea icon-sm"></i></a>
         </div>
         <!-- Back to home End -->
 
         <!-- Hero Start -->
-        <section class="user-pages d-flex align-items-center" style="background: url('images/home/user.jpg') center center;">
+        <section class="user-pages d-flex align-items-center" style="background: url('assets/images/home/user.jpg') center center;">
             <div class="bg-overlay"></div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -51,7 +51,7 @@
                                     </div><!--end col-->
                                     
                                     <div class="col-12 text-center">
-                                        <p class="mb-0 mt-3"><small class="text-dark me-2">Don't have an account ?</small> <a href="page-signup.html" class="text-dark fw-bold">Sign Up</a></p>
+                                        <p class="mb-0 mt-3"><small class="text-dark me-2">Don't have an account ?</small> <a href="<?php echo base_url() . 'sign-up' ?>" class="text-dark fw-bold">Sign Up</a></p>
                                     </div><!--end col-->
                                 </div><!--end row-->
                             </form><!--end form-->
