@@ -31,9 +31,6 @@
                         <a href="<?php echo base_url() ?>" class="sub-menu-item">Home</a></span>
                     </li>
                     <li class="has-submenu parent-menu-item">
-                        <a href="<?php echo base_url() . 'about-us' ?>" class="sub-menu-item">About us</a></span>
-                    </li>
-                    <li class="has-submenu parent-menu-item">
                         <a href="<?php echo base_url() . 'services' ?>" class="sub-menu-item">Services</a></span>
                     </li>
                     <li class="has-submenu parent-menu-item">
@@ -41,6 +38,9 @@
                     </li>
                     <li class="has-submenu parent-menu-item">
                         <a href="<?php echo base_url() . 'benefits' ?>" class="sub-menu-item">Benefits</a></span>
+                    </li>
+                    <li class="has-submenu parent-menu-item">
+                        <a href="<?php echo base_url() . 'about-us' ?>" class="sub-menu-item">About us</a></span>
                     </li>
                     <li><a href="<?php echo base_url() . 'contact-us' ?>" class="sub-menu-item">Contact Us</a></li>
                 </ul><!--end navigation menu-->
