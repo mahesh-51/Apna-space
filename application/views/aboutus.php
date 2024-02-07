@@ -27,7 +27,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-5 col-12">
                         <div class="positon-relative">
-                            <img src="images/home/2.jpg" class="img-fluid rounded-md shadow-md" alt="">
+                            <img src="assets/images/home/2.jpg" class="img-fluid rounded-md shadow-md" alt="">
                             <div class="play-icon">
                                 <a href="https://www.youtube.com/watch?v=-rnEepQ_jpI" class="play-btn video-play-icon">
                                     <i class="mdi mdi-play text-primary rounded-circle bg-white shadow-lg"></i>
@@ -294,7 +294,7 @@
                                         <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
                                     </div>
                                     <div class="d-flex mt-3 align-items-center">
-                                        <img src="images/client/01.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <img src="assets/images/client/01.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
                                         <p class="text-primary mb-0">- Calvin Carlo <small class="text-muted d-block ms-2">Manager</small></p>
                                     </div>
                                 </div>
@@ -313,7 +313,7 @@
                                         <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
                                     </div>
                                     <div class="d-flex mt-3 align-items-center">
-                                        <img src="images/client/02.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <img src="assets/images/client/02.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
                                         <p class="text-primary mb-0">- Christa Smith <small class="text-muted d-block ms-2">Manager</small></p>
                                     </div>
                                 </div>
@@ -332,7 +332,7 @@
                                         <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
                                     </div>
                                     <div class="d-flex mt-3 align-items-center">
-                                        <img src="images/client/03.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <img src="assets/images/client/03.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
                                         <p class="text-primary mb-0">- Jemina CLone <small class="text-muted d-block ms-2">Manager</small></p>
                                     </div>
                                 </div>
@@ -351,7 +351,7 @@
                                         <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
                                     </div>
                                     <div class="d-flex mt-3 align-items-center">
-                                        <img src="images/client/04.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <img src="assets/images/client/04.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
                                         <p class="text-primary mb-0">- Smith Vodka <small class="text-muted d-block ms-2">Manager</small></p>
                                     </div>
                                 </div>
@@ -370,7 +370,7 @@
                                         <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
                                     </div>
                                     <div class="d-flex mt-3 align-items-center">
-                                        <img src="images/client/05.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <img src="assets/images/client/05.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
                                         <p class="text-primary mb-0">- Cristino Murfi <small class="text-muted d-block ms-2">Manager</small></p>
                                     </div>
                                 </div>
@@ -394,7 +394,7 @@
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div class="card blog border-0 shadow rounded overflow-hidden">
                             <div class="image position-relative overflow-hidden">
-                                <img src="images/work/7.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/work/7.jpg" class="img-fluid" alt="">
 
                                 <div class="blog-tag">
                                     <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
@@ -412,7 +412,7 @@
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div class="card blog border-0 shadow rounded overflow-hidden">
                             <div class="image position-relative overflow-hidden">
-                                <img src="images/work/8.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/work/8.jpg" class="img-fluid" alt="">
 
                                 <div class="blog-tag">
                                     <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
@@ -430,7 +430,7 @@
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div class="card blog border-0 shadow rounded overflow-hidden">
                             <div class="image position-relative overflow-hidden">
-                                <img src="images/work/9.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/work/9.jpg" class="img-fluid" alt="">
 
                                 <div class="blog-tag">
                                     <a href="javascript:void(0)" class="badge bg-light text-dark">Cospace</a>
