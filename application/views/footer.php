@@ -8,7 +8,7 @@
                             <div class="col-lg-5 col-12 mb-lg-0 mb-md-4 pb-lg-0 pb-md-2">
                                 <a href="#" class="logo-footer text-white"><img src="images/logo-light.png"
                                         class="l-light" height="24" alt=""></a>
-                                <p class="text-foot mt-4">Codash offer a wealth of advantages for self starters,
+                                <p class="text-foot mt-4">Apna-Space offer a wealth of advantages for self starters,
                                     including networking opportunities, daily structure, and increased productivity.</p>
                                 <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
                                     <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
@@ -60,7 +60,7 @@
                                             <li><i data-feather="map-pin" class="fea icon-sm text-foot me-2"></i><a
                                                     href="#" class="text-foot">Londan, England</a></li>
                                             <li><i data-feather="mail" class="fea icon-sm text-foot me-2"></i><a
-                                                    href="mailto:contact@example.com"
+                                                    href="mailto:Mahesh.mentem@gmail.com"
                                                     class="text-foot">test@domain.com</a></li>
                                             <li><i data-feather="phone" class="fea icon-sm text-foot me-2"></i><a
                                                     href="tel:+152534-468-854" class="text-foot">+(12) 1254-5487</a>
@@ -80,7 +80,7 @@
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
                         <p class="mb-0 text-foot">
-                            <script>document.write(new Date().getFullYear())</script> © Co-Working. Design with <i
+                            <script>document.write(new Date().getFullYear())</script> © Apna-Space. Design with <i
                                 class="mdi mdi-heart text-danger"></i> by <a href="javascript:void(0)"
                                 target="_blank" class="text-reset">Mahesh Joshi</a>.
                         </p>
