@@ -8,6 +8,8 @@ class Welcome extends CI_Controller {
 			parent::__construct();
 			
 			$this->load->helper('url');
+			$this->load->model('Space_Model');
+			$this->load->model('Client_Model');
 	}
 	
 	public function index()
@@ -61,7 +63,6 @@ class Welcome extends CI_Controller {
 
 	public function login()
 	{
-		print_r($_POST);
 		$this->load->view('header');
 		$this->load->view('login');
 		$this->load->view('footer');
@@ -69,11 +70,18 @@ class Welcome extends CI_Controller {
 			$username = $_POST['email'];
 			$password = $_POST['password'];
 			if($username == "admin@gmail.com" && $password == "123456"){
+				session_start();
 				header("Location: dashboard");
 			} else {
 				echo "Invalid Login Credntials";
 			}
 		}
+	}
+
+	public function logout()
+	{
+		session_destroy();
+		header("Location: " . base_url());
 	}
 
 	public function dashboard()
@@ -88,15 +96,22 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('admin/header');
 		$this->load->view('admin/navbar');
-		$this->load->view('admin/space');
+
+		$data['spacelist'] = $this->Space_Model->getSpaceList();
+
+
+		$this->load->view('admin/space', $data);
 		$this->load->view('admin/footer');
 	}
-	
+
 	public function client()
 	{
 		$this->load->view('admin/header');
 		$this->load->view('admin/navbar');
-		$this->load->view('admin/client');
+
+		$data['clientlist'] = $this->Client_Model->getClientList();
+
+		$this->load->view('admin/client', $data);
 		$this->load->view('admin/footer');
 	}
 }

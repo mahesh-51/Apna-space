@@ -19,7 +19,7 @@
   <div>
     <ul class="navbar-nav ml-auto">
       <button class="btn btn-danger">
-        Logout
+        <a class="text-white" href="<?php echo base_url() . 'logout' ?>">Logout</a>
       </button>
     </ul>
   </div>
