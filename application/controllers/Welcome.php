@@ -61,16 +61,42 @@ class Welcome extends CI_Controller {
 
 	public function login()
 	{
+		print_r($_POST);
 		$this->load->view('header');
 		$this->load->view('login');
-		$this->load->view('footer');	
+		$this->load->view('footer');
+		if($_POST){
+			$username = $_POST['email'];
+			$password = $_POST['password'];
+			if($username == "admin@gmail.com" && $password == "123456"){
+				header("Location: dashboard");
+			} else {
+				echo "Invalid Login Credntials";
+			}
+		}
 	}
 
-	public function signUp()
+	public function dashboard()
 	{
-		$this->load->view('header');
-		$this->load->view('signup');
-		$this->load->view('footer');
-		
+		$this->load->view('admin/header');
+		$this->load->view('admin/navbar');
+		$this->load->view('admin/dashboard');
+		$this->load->view('admin/footer');
+	}
+
+	public function space()
+	{
+		$this->load->view('admin/header');
+		$this->load->view('admin/navbar');
+		$this->load->view('admin/space');
+		$this->load->view('admin/footer');
+	}
+	
+	public function client()
+	{
+		$this->load->view('admin/header');
+		$this->load->view('admin/navbar');
+		$this->load->view('admin/client');
+		$this->load->view('admin/footer');
 	}
 }

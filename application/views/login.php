@@ -17,7 +17,7 @@
                                 </a>
                                 <h5 class="my-4">Login</h5>  
                             </div>
-                            <form class="login-form">
+                            <form class="login-form" method="post" action="<?php echo base_url() . 'login' ?>">
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="form-group position-relative">
@@ -29,7 +29,7 @@
                                     <div class="col-12">
                                         <div class="form-group position-relative">
                                             <label class="form-label">Password <span class="text-danger">*</span></label>
-                                            <input type="password" class="form-control" required="" placeholder="Password :">
+                                            <input name="password" type="password" class="form-control" required="" placeholder="Password :">
                                         </div>
                                     </div><!--end col-->
 
@@ -47,11 +47,7 @@
                                     </div><!--end col-->
 
                                     <div class="col-12 mb-0">
-                                        <button class="btn btn-primary w-100">Sign in</button>
-                                    </div><!--end col-->
-                                    
-                                    <div class="col-12 text-center">
-                                        <p class="mb-0 mt-3"><small class="text-dark me-2">Don't have an account ?</small> <a href="<?php echo base_url() . 'sign-up' ?>" class="text-dark fw-bold">Sign Up</a></p>
+                                        <button name='submit' class="btn btn-primary w-100">Sign in</button>
                                     </div><!--end col-->
                                 </div><!--end row-->
                             </form><!--end form-->

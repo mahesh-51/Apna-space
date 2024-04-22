@@ -91,55 +91,6 @@
     </footer><!--end footer-->
     <!-- Footer End -->
 
-    <!-- Login Modal start -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header p-4">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Login Now </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body p-4">
-                    <form class="login-form">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="mb-3">
-                                    <label class="form-label">Your Email <span class="text-danger">*</span></label>
-                                    <input type="email" class="form-control" name="email" required=""
-                                        placeholder="Your Email :">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mb-3">
-                                    <label class="form-label">Password <span class="text-danger">*</span></label>
-                                    <input type="password" class="form-control" required="" placeholder="Password :">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Remember Me
-                                    </label>
-                                </div>
-                                <p class="forgot-pass my-2"><a href="page-reset-password.html"
-                                        class="text-dark fw-bold">Forgot password ?</a></p>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100">Login</button>
-                            </div>
-                            <div class="col-12 text-center">
-                                <p class="mb-0 mt-3"><small class="text-dark me-2">Don't have an account ?</small> <a
-                                        href="<?php echo base_url() . 'sign-up' ?>" class="text-dark fw-bold">Sign Up</a></p>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div><!--end modal-->
-    <!-- Login Modal end -->
-
     <!-- Back to top -->
     <a href="#" class="btn btn-icon btn-primary back-to-top" onclick="topFunction()" id="back-to-top"><i
             data-feather="arrow-up" class="icons"></i></a>

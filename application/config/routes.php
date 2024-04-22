@@ -61,3 +61,8 @@ $route['pricing'] = 'welcome/pricing';
 $route['contact-us'] = 'welcome/contact';
 $route['sign-up'] = 'welcome/signUp';
 $route['login'] = 'welcome/login';
+
+//admin routes
+$route['dashboard'] = 'welcome/dashboard';
+$route['client'] = 'welcome/client';
+$route['space'] = 'welcome/space';

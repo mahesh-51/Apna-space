@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="buy-button">
-                    <a href="javascript:void(0)" class="text-white login scroll-down" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="uil uil-user"></i></a>
+                    <a href="<?php echo base_url() . 'login' ?>" class="text-white login scroll-down"><i class="uil uil-user"></i></a>
                 </div><!--end login button-->
 
             <div id="navigation">
