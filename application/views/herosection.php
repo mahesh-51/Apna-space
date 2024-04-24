@@ -10,12 +10,12 @@
                         <div class="row">
                             <div class="col-lg-10">
                                 <div class="subcribe-form mt-4">
-                                    <form>
+                                    <!-- <form>
                                         <div class="form-group mb-0">
                                             <input name="name" id="name2" type="text" class="rounded-lg shadow" style="opacity: 0.8;" placeholder="Search your space...">
                                             <button type="submit" class="btn btn-pills btn-primary">Search</button>
                                         </div>
-                                    </form>
+                                    </form> -->
                                 </div>
                             </div>
                         </div>

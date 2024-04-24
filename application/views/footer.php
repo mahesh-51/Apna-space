@@ -35,35 +35,33 @@
                                                         class="mdi mdi-chevron-right me-1"></i> Pricing</a></li>
                                             <li><a href="javascript:void(0)" class="text-foot"><i
                                                         class="mdi mdi-chevron-right me-1"></i> Project</a></li>
-                                            <li><a href="javascript:void(0)" class="text-foot"><i
-                                                        class="mdi mdi-chevron-right me-1"></i> Blog</a></li>
                                         </ul>
                                     </div><!--end col-->
 
-                                    <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                                        <h5 class="text-light footer-head">Support</h5>
-                                        <ul class="list-unstyled footer-list mt-4">
-                                            <li><a href="javascript:void(0)" class="text-foot"><i
-                                                        class="mdi mdi-chevron-right me-1"></i> Help Desk</a></li>
-                                            <li><a href="javascript:void(0)" class="text-foot"><i
-                                                        class="mdi mdi-chevron-right me-1"></i> Live Chat</a></li>
-                                            <li><a href="javascript:void(0)" class="text-foot"><i
-                                                        class="mdi mdi-chevron-right me-1"></i> Knowledge</a></li>
-                                            <li><a href="javascript:void(0)" class="text-foot"><i
-                                                        class="mdi mdi-chevron-right me-1"></i> Messaging</a></li>
-                                        </ul>
-                                    </div><!--end col-->
+                                        <!-- <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                            <h5 class="text-light footer-head">Support</h5>
+                                            <ul class="list-unstyled footer-list mt-4">
+                                                <li><a href="javascript:void(0)" class="text-foot"><i
+                                                            class="mdi mdi-chevron-right me-1"></i> Help Desk</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i
+                                                            class="mdi mdi-chevron-right me-1"></i> Live Chat</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i
+                                                            class="mdi mdi-chevron-right me-1"></i> Knowledge</a></li>
+                                                <li><a href="javascript:void(0)" class="text-foot"><i
+                                                            class="mdi mdi-chevron-right me-1"></i> Messaging</a></li>
+                                            </ul>
+                                        </div> -->
 
                                     <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
                                         <h5 class="text-light footer-head">Contacts</h5>
                                         <ul class="list-unstyled footer-list mt-4">
                                             <li><i data-feather="map-pin" class="fea icon-sm text-foot me-2"></i><a
-                                                    href="#" class="text-foot">Londan, England</a></li>
+                                                    href="#" class="text-foot">Jodhpur, Rajasthan</a></li>
                                             <li><i data-feather="mail" class="fea icon-sm text-foot me-2"></i><a
-                                                    href="mailto:Mahesh.mentem@gmail.com"
-                                                    class="text-foot">test@domain.com</a></li>
+                                                    href="mailto:apnaspace@gmail.com"
+                                                    class="text-foot">apnaspace@gmail.com</a></li>
                                             <li><i data-feather="phone" class="fea icon-sm text-foot me-2"></i><a
-                                                    href="tel:+152534-468-854" class="text-foot">+(12) 1254-5487</a>
+                                                    href="tel:+152534-468-854" class="text-foot">+(91) 1254-5487</a>
                                             </li>
                                         </ul>
                                     </div><!--end col-->
@@ -82,7 +80,7 @@
                         <p class="mb-0 text-foot">
                             <script>document.write(new Date().getFullYear())</script> © Apna-Space. Design with <i
                                 class="mdi mdi-heart text-danger"></i> by <a href="javascript:void(0)"
-                                target="_blank" class="text-reset">Mahesh Joshi</a>.
+                                target="_blank" class="text-reset">Apni Teams</a>.
                         </p>
                     </div><!--end col-->
                 </div><!--end row-->

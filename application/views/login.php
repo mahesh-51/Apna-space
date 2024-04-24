@@ -33,7 +33,7 @@
                                         </div>
                                     </div><!--end col-->
 
-                                    <div class="col-12">
+                                    <!-- <div class="col-12">
                                         <div class="d-flex justify-content-between mb-3">
                                             <div class="form-check">
                                             <input class="form-check-input" type="checkbox" value=""
@@ -44,7 +44,7 @@
                                         </div>
                                             <p class="forgot-pass mb-0"><a href="" class="text-dark fw-bold">Forgot password ?</a></p>
                                         </div>
-                                    </div><!--end col-->
+                                    </div> -->
 
                                     <div class="col-12 mb-0">
                                         <button name='submit' class="btn btn-primary w-100">Sign in</button>

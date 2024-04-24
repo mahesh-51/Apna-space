@@ -2,8 +2,10 @@
         <div class="container">
             <!-- Logo container-->
             <a class="logo" href="<?php echo base_url() ?>">
-                    <img src="assets/images/logo.png" class="l-dark" height="24" alt="">
-                    <img src="assets/images/logo-light.png" class="l-light" height="24" alt="">
+                    <!-- <img src="assets/images/logo.png" class="l-dark" height="24" alt=""> -->
+                    <p class="text-dark l-dark">Apna Space</p>
+                    <p class="text-white l-light">Apna Space</p>
+                    <!-- <img src="assets/images/logo-light.png" class="l-light" height="24" alt=""> -->
                 </a>
                 <!-- End Logo container-->
                 <div class="menu-extras">
