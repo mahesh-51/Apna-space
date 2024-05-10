@@ -1,5 +1,6 @@
 <div class="container">
   <h2 class="py-2">Space List</h2>
+  <button><a href="<?php echo base_url() . 'space/add' ?>">Add Space</a></button>
   <table class="table">
     <thead>
       <tr>
