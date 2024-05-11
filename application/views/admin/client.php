@@ -31,7 +31,7 @@
               <td><?php echo $data->contact; ?></td>
               <td><?php echo $data->document_type; ?></td>
               <td><?php echo $data->document_number; ?></td>
-              <td><?php echo $data->type; ?></td>
+              <td><?php echo $data->space_id; ?></td>
               <td><?php echo $data->time_period; ?></td>
               <td>
                 <button type="button" class="btn btn-primary btn-sm"><a class="text-white" href="<?php echo base_url() . 'edit-client/' . $data->id ?>">Edit</a></button>

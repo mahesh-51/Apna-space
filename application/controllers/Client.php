@@ -29,8 +29,8 @@ class Client extends CI_Controller
             'email' => $this->input->post('email'),
             'contact' => $this->input->post('contact'),
             'document_type' => $this->input->post('document_type'),
-            'doc_number' => $this->input->post('doc_number'),
-            'space' => $this->input->post('space'),
+            'document_number' => $this->input->post('document_number'),
+            'space_id' => $this->input->post('space_id'),
             'time_period' => $this->input->post('time_period')
         );
         if (!empty($this->input->post('id'))) {
@@ -54,7 +54,7 @@ class Client extends CI_Controller
             'contact' => $this->input->post('contact'),
             'profile' => $this->input->post('profile'),
             'document_type' => $this->input->post('document_type'),
-            'doc_number' => $this->input->post('doc_number'),
+            'document_number' => $this->input->post('document_number'),
             'space' => $this->input->post('space'),
             'time_period' => $this->input->post('time_period')
         );

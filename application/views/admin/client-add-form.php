@@ -31,12 +31,12 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="doc_number">Document Number:</label>
-          <input type="text" id="doc_number" name="doc_number" class="form-control" required placeholder="Enter document number">
+          <label for="document_number">Document Number:</label>
+          <input type="text" id="document_number" name="document_number" class="form-control" required placeholder="Enter document number">
         </div>
         <div class="form-group">
           <label for="space">Space:</label>
-          <input type="text" id="space" name="space" class="form-control" placeholder="Enter space">
+          <input type="text" id="space_id" name="space_id" class="form-control" placeholder="Enter space">
         </div>
         <div class="form-group">
           <label for="time_period">Time Period:</label>
