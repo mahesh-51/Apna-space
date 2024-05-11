@@ -50,10 +50,11 @@ class Space extends CI_Controller
             'Availability' => $this->input->post('availability')
         );
        $this->Space_Model->update_data($id, $data);
-        // Redirect or load view accordingly
+       redirect("client");
     }
 
     public function delete($id) {
         $this->Space_Model->delete_data($id);
+        redirect("space");
     }
 }
