@@ -54,7 +54,7 @@ class Space extends CI_Controller
             'Furnished' => $this->input->post('furnished'),
             'Area' => $this->input->post('area'),
             'Price' => $this->input->post('price'),
-            'Availability' => $this->input->post('availability')
+            'availability' => $this->input->post('availability')
         );
        $this->Space_Model->update_data($id, $data);
        redirect("client");

@@ -21,8 +21,8 @@
           <input type="text" id="contact" name="contact" class="form-control" required placeholder="Enter your contact number">
         </div>
         <div class="form-group">
-            <label for="doc_type">Document Type:</label>
-                <select id="doc_type" name="doc_type" class="form-control" required>
+            <label for="document_type">Document Type:</label>
+                <select id="document_type" name="document_type" class="form-control" required>
                     <option value="" disabled selected>Select Document Type</option>
                     <option value="Aadhaar">Aadhaar</option>
                     <option value="PAN">PAN</option>

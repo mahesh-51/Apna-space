@@ -26,8 +26,7 @@ class Client extends CI_Controller
             'name' => $this->input->post('name'),
             'email' => $this->input->post('email'),
             'contact' => $this->input->post('contact'),
-            'profile' => $this->input->post('profile'),
-            'doc_type' => $this->input->post('doc_type'),
+            'document_type' => $this->input->post('document_type'),
             'doc_number' => $this->input->post('doc_number'),
             'space' => $this->input->post('space'),
             'time_period' => $this->input->post('time_period')
@@ -47,7 +46,7 @@ class Client extends CI_Controller
             'email' => $this->input->post('email'),
             'contact' => $this->input->post('contact'),
             'profile' => $this->input->post('profile'),
-            'doc_type' => $this->input->post('doc_type'),
+            'document_type' => $this->input->post('document_type'),
             'doc_number' => $this->input->post('doc_number'),
             'space' => $this->input->post('space'),
             'time_period' => $this->input->post('time_period')
