@@ -33,8 +33,8 @@
             <td><?php echo $data->type; ?></td>
             <td><?php echo $data->time_period; ?></td>
             <td>
-              <button type="button" class="btn btn-primary btn-sm"><a class="text-white" href="<?php echo base_url() . 'edit-space/' . $data->id ?>">Edit</a></button>
-              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+              <button type="button" class="btn btn-primary btn-sm"><a class="text-white" href="<?php echo base_url() . 'edit-client/' . $data->id ?>">Edit</a></button>
+            <button type="button" class="btn btn-danger btn-sm my-1"><a class="text-white" href="<?php echo base_url() . 'delete-client/' . $data->id ?>">Delete</a></button>
             </td>
           </tr>
         <?php
