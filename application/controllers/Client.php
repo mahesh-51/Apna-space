@@ -32,8 +32,8 @@ class Client extends CI_Controller
             'space' => $this->input->post('space'),
             'time_period' => $this->input->post('time_period')
         );
-        $insert_id = $this->Tenant_model->insert_data($data);
-
+        $insert_id = $this->Client_Model->insert_data($data);
+        redirect("client");
     }
 
     public function edit($id) {
@@ -52,13 +52,13 @@ class Client extends CI_Controller
             'space' => $this->input->post('space'),
             'time_period' => $this->input->post('time_period')
         );
-        $affected_rows = $this->Tenant_model->update_data($id, $data);
-
+        $affected_rows = $this->Client_Model->update_data($id, $data);
+        redirect("client");
     }
 
     public function delete($id) {
 
-        $affected_rows = $this->Tenant_model->delete_data($id);
-
+        $affected_rows = $this->Client_Model->delete_data($id);
+        redirect("client");
     }
 }
