@@ -2,7 +2,7 @@
   <h2 class="py-2">Space List</h2>
   <div class="row my-2">
     <div class="col-12 d-flex justify-content-end">
-      <button class="btn btn-primary btn-sm"><a class="text-white" href="<?php echo base_url() . 'add' ?>">Add Space</a></button>
+      <button class="btn btn-primary btn-sm"><a class="text-white" href="<?php echo base_url() . 'add-space' ?>">Add Space</a></button>
     </div>
   </div>
   <div class="table-responsive">
@@ -13,7 +13,6 @@
         <th>Space</th>
         <th>Floor No</th>
         <th>Furnished</th>
-        <th>Area (sq feet)</th>
         <th>Price (per day)</th>
         <th>Availability</th>
         <th>Actions</th>
@@ -25,10 +24,9 @@
     foreach ($spacelist as $data) { ?>
         <tr>
           <td><?php echo $data->id; ?></td>
-          <td><?php echo $data->type; ?></td>
+          <td><?php echo $data->space; ?></td>
           <td><?php echo $data->floor_no; ?></td>
           <td><?php echo $data->furnished; ?></td>
-          <td><?php echo $data->area; ?></td>
           <td><?php echo $data->price; ?></td>
           <td><?php echo $data->availability; ?></td>
           <td>

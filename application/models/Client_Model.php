@@ -27,7 +27,7 @@ class Client_Model extends CI_Model
    */
   public function getClientList()
   {
-    $this->db->join('space', 'space.space_id = client.space_id', 'LEFT');
+    // $this->db->join('space', 'space.space_id = client.space_id', 'LEFT');
     $query = $this->db->get('client');
     // print_r($query->result());exit;
     if ($query->num_rows() > 0) {

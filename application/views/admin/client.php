@@ -1,5 +1,10 @@
 <div class="container">
   <h2 class="py-2">Client List</h2>
+  <div class="row my-2">
+    <div class="col-12 d-flex justify-content-end">
+      <button class="btn btn-primary btn-sm"><a class="text-white" href="<?php echo base_url() . 'add-client' ?>">Add Client</a></button>
+    </div>
+  </div>
   <table class="table">
     <thead>
       <tr>
@@ -7,7 +12,6 @@
         <th>Name</th>
         <th>Email</th>
         <th>Contact</th>
-        <th>Profile</th>
         <th>Doc Type</th>
         <th>Doc Number</th>
         <th>Space</th>
@@ -24,13 +28,12 @@
             <td><?php echo $data->name; ?></td>
             <td><?php echo $data->email; ?></td>
             <td><?php echo $data->contact; ?></td>
-            <td><?php echo $data->profile; ?></td>
             <td><?php echo $data->document_type; ?></td>
             <td><?php echo $data->document_number; ?></td>
             <td><?php echo $data->type; ?></td>
             <td><?php echo $data->time_period; ?></td>
             <td>
-              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+              <button type="button" class="btn btn-primary btn-sm"><a class="text-white" href="<?php echo base_url() . 'edit-space/' . $data->id ?>">Edit</a></button>
               <button type="button" class="btn btn-danger btn-sm">Delete</button>
             </td>
           </tr>

@@ -70,3 +70,6 @@ $route['space'] = 'welcome/space';
 $route['add'] = 'space/add_form';
 $route['add-space'] = 'space/create';
 $route['edit-space/(:any)'] = 'space/edit/$1';
+$route['add-client'] = 'client/client_add';
+$route['add-client-create'] = 'client/create';
+$route['edit-client/(:any)'] = 'client/edit/$1';

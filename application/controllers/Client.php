@@ -13,8 +13,11 @@ class Client extends CI_Controller
 		$this->load->model('Client_Model');
 	}
 
-    public function index() {
-        // Load view or perform other actions
+    public function client_add() {
+        $this->load->view('admin/header');
+		$this->load->view('admin/navbar');
+		$this->load->view("admin/client-add-form");
+        $this->load->view('admin/footer');
     }
 
     public function create() {
