@@ -1,13 +1,13 @@
 <div class="container center">
   <div class="row">
-        <div class="col-12 d-flex justify-content-end">
-            <button class="btn btn-dark btn-sm my-2"><a class="text-white" href="<?php echo base_url() . 'client' ?>">Back</a></button>
-        </div>
+    <div class="col-12 d-flex justify-content-end">
+      <button class="btn btn-dark btn-sm my-2"><a class="text-white" href="<?php echo base_url() . 'client' ?>">Back</a></button>
     </div>
+  </div>
   <div class="card my-5">
     <div class="card-body">
       <h2 class="card-title text-center">Client Form</h2>
-      <form method="POST" action="<?php echo base_url() .'add-client-create'?>">
+      <form method="POST" action="<?php echo base_url() . 'add-client-create' ?>">
         <div class="form-group">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" class="form-control" required placeholder="Enter your name">
@@ -21,14 +21,14 @@
           <input type="text" id="contact" name="contact" class="form-control" required placeholder="Enter your contact number">
         </div>
         <div class="form-group">
-            <label for="document_type">Document Type:</label>
-                <select id="document_type" name="document_type" class="form-control" required>
-                    <option value="" disabled selected>Select Document Type</option>
-                    <option value="Aadhaar">Aadhaar</option>
-                    <option value="PAN">PAN</option>
-                    <option value="Driving License">Driving License</option>
-                    <option value="Voter ID">Voter ID</option>
-                </select>
+          <label for="document_type">Document Type:</label>
+          <select id="document_type" name="document_type" class="form-control" required>
+            <option value="" disabled selected>Select Document Type</option>
+            <option value="Aadhaar">Aadhaar</option>
+            <option value="PAN">PAN</option>
+            <option value="Driving License">Driving License</option>
+            <option value="Voter ID">Voter ID</option>
+          </select>
         </div>
         <div class="form-group">
           <label for="doc_number">Document Number:</label>
@@ -49,4 +49,3 @@
     </div>
   </div>
 </div>
- 

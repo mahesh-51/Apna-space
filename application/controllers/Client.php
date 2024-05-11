@@ -4,23 +4,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class Client extends CI_Controller
 {
 
-	public function __construct()
-	{
-		parent::__construct();
+    public function __construct()
+    {
+        parent::__construct();
 
-		$this->load->helper('url');
-		$this->load->model('Space_Model');
-		$this->load->model('Client_Model');
-	}
+        $this->load->helper('url');
+        $this->load->model('Space_Model');
+        $this->load->model('Client_Model');
+    }
 
-    public function client_add() {
+    public function client_add()
+    {
         $this->load->view('admin/header');
-		$this->load->view('admin/navbar');
-		$this->load->view("admin/client-add-form");
+        $this->load->view('admin/navbar');
+        $this->load->view("admin/client-add-form");
         $this->load->view('admin/footer');
     }
 
-    public function create() {
+    public function create()
+    {
 
         $data = array(
             'name' => $this->input->post('name'),
@@ -31,15 +33,20 @@ class Client extends CI_Controller
             'space' => $this->input->post('space'),
             'time_period' => $this->input->post('time_period')
         );
-        $insert_id = $this->Client_Model->insert_data($data);
+        if (!empty($this->input->post('id'))) {
+            $this->Client_Model->update_data($this->input->post('id'), $data);
+        } else {
+            $this->Client_Model->insert_data($data);
+        }
         redirect("client");
     }
 
-    public function edit($id) {
-
+    public function edit($id)
+    {
     }
 
-    public function update($id) {
+    public function update($id)
+    {
 
         $data = array(
             'name' => $this->input->post('name'),
@@ -55,7 +62,8 @@ class Client extends CI_Controller
         redirect("client");
     }
 
-    public function delete($id) {
+    public function delete($id)
+    {
 
         $affected_rows = $this->Client_Model->delete_data($id);
         redirect("client");
