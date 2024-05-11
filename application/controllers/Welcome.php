@@ -93,7 +93,7 @@ class Welcome extends CI_Controller {
 		$data['spacecount'] = count(!empty($spacelist) ? $spacelist : 0);
 
 		$clientlist = $this->Client_Model->getClientList();
-		$data['clientcount'] = 0 ;//count(!empty($clientlist));
+		$data['clientcount'] = count(!empty($clientlist) ? $clientlist : 0);
 
 		$this->load->view('admin/dashboard', $data);
 		$this->load->view('admin/footer');

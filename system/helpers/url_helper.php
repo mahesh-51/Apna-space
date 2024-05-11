@@ -567,4 +567,30 @@ if ( ! function_exists('redirect'))
 		}
 		exit;
 	}
+
+	function send_mail()
+	{
+		$url = 'https://api2.juvlon.com/v4/httpSendMail';
+		$data = '{"ApiKey":"INSERT_YOUR_JUVLON_ACCOUNT_API_KEY",
+    "requests":
+          [{
+            "subject":"Hello",
+            "from":"support@juvlon.com",
+            "body":"This is an API test from Juvlon",
+            "to":"sales@nichelive.com"             
+          }]
+        }';
+		$options = array(
+			'http' => array(
+				'header'  => "Content-type: application/json\r\n",
+				'method'  => 'POST',
+				'content' => $data
+			)
+		);
+		$context  = stream_context_create($options);
+		$result = file_get_contents($url, false, $context);
+		if ($result === FALSE) { /* Handle error */
+		}
+		print_r($result);
+	}
 }
