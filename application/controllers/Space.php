@@ -29,14 +29,21 @@ class Space extends CI_Controller
             'price' => $this->input->post('price'),
             'availability' => $this->input->post('availability')
         );
-        $this->Space_Model->insert_data($data);
+        if (!empty($this->input->post('id'))) {
+            $this->Space_Model->update_data($this->input->post('id'), $data);
+        }else{
+            $this->Space_Model->insert_data($data);
+        }
         redirect('space');
     }
 
     public function edit($id) {
-        $data['data'] = $this->Space_Model->get_space($id);
+        $data['data'] = $this->Space_Model->get_data($id);
         print_r($data);
-		$this->load->view("space-add-form",$data);
+        $this->load->view('admin/header');
+		$this->load->view('admin/navbar');
+		$this->load->view("admin/space-add-form",$data);
+        $this->load->view('admin/footer');
         // Load view with form pre-filled with data to edit
     }
 
