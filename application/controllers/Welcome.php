@@ -103,10 +103,7 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('admin/header');
 		$this->load->view('admin/navbar');
-
 		$data['spacelist'] = $this->Space_Model->getSpaceList();
-
-
 		$this->load->view('admin/space', $data);
 		$this->load->view('admin/footer');
 	}
@@ -115,9 +112,7 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('admin/header');
 		$this->load->view('admin/navbar');
-
 		$data['clientlist'] = $this->Client_Model->getClientList();
-
 		$this->load->view('admin/client', $data);
 		$this->load->view('admin/footer');
 	}

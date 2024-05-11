@@ -37,7 +37,8 @@ class Space_Model extends CI_Model
 
   public function insert_data($data)
   {
-    $this->db->insert('space', $data);
+    $query = $this->db->insert('space', $data);
+    print_r($query);
     return $this->db->insert_id();
   }
 

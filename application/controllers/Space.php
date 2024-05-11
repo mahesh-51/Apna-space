@@ -14,7 +14,10 @@ class Space extends CI_Controller
 	}
 
 	function add_form() {
-		$this->load->view("space-add-form");
+        $this->load->view('admin/header');
+		$this->load->view('admin/navbar');
+		$this->load->view("admin/space-add-form");
+        $this->load->view('admin/footer');
 	}
 
 	public function create() {
@@ -28,11 +31,12 @@ class Space extends CI_Controller
             'Availability' => $this->input->post('availability')
         );
         $this->Space_model->insert_data($data);
-        // Redirect or load view accordingly
+        $this->load->view('admin/space');
     }
 
     public function edit($id) {
         $data['data'] = $this->Space_model->get_space($id);
+        print_r($data);
 		$this->load->view("space-add-form",$data);
         // Load view with form pre-filled with data to edit
     }

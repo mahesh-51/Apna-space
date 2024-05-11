@@ -67,3 +67,6 @@ $route['logout'] = 'welcome/logout';
 $route['dashboard'] = 'welcome/dashboard';
 $route['client'] = 'welcome/client';
 $route['space'] = 'welcome/space';
+$route['add'] = 'space/add_form';
+$route['add-space'] = 'space/create';
+$route['edit-space/(:any)'] = 'space/edit/$1';

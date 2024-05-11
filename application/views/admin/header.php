@@ -21,5 +21,6 @@
     <link rel="stylesheet" href="assets/css/tiny-slider.css" />
     <!-- Main css File -->
     <link href="assets/css/style.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
