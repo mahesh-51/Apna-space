@@ -20,7 +20,7 @@
                     <div class="col-lg-5 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div class="card custom-form rounded shadow border-0">
                             <div class="card-body">
-                                <form method="post" name="myForm" onsubmit="return validateForm()">
+                                <!-- <form method="post" name="myForm" onsubmit="return validateForm()">
                                     <p id="error-msg" class="mb-0"></p>
                                     <div id="simple-msg"></div>
                                     <div class="row">
@@ -36,14 +36,14 @@
                                                 <label class="form-label">Your Email <span class="text-danger">*</span></label>
                                                     <input name="email" id="email" type="email" class="form-control" placeholder="Email :">
                                             </div> 
-                                        </div><!--end col-->
+                                        </div>
     
                                         <div class="col-12">
                                             <div class="mb-3">
                                                 <label class="form-label">Subject</label>
                                                     <input name="subject" id="subject" class="form-control" placeholder="Subject :">
                                             </div>
-                                        </div><!--end col-->
+                                        </div>
     
                                         <div class="col-12">
                                             <div class="mb-3">
@@ -55,9 +55,9 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <button type="submit" id="submit" name="send" class="btn btn-primary w-100">Send Message</button>
-                                        </div><!--end col-->
-                                    </div><!--end row-->
-                                </form>
+                                        </div>
+                                    </div>
+                                </form> -->
                             </div>
                         </div><!--end custom-form-->
                     </div><!--end col-->
