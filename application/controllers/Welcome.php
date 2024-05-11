@@ -90,10 +90,10 @@ class Welcome extends CI_Controller {
 		$this->load->view('admin/navbar');
 
 		$spacelist = $this->Space_Model->getSpaceList();
-		$data['spacecount'] = count($spacelist);
+		$data['spacecount'] = count(!empty($spacelist) ? $spacelist : 0);
 
 		$clientlist = $this->Client_Model->getClientList();
-		$data['clientcount'] = count($clientlist);
+		$data['clientcount'] = 0 ;//count(!empty($clientlist));
 
 		$this->load->view('admin/dashboard', $data);
 		$this->load->view('admin/footer');
