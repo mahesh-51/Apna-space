@@ -39,7 +39,6 @@ class Space extends CI_Controller
 
     public function edit($id) {
         $data['data'] = $this->Space_Model->get_data($id);
-        print_r($data);
         $this->load->view('admin/header');
 		$this->load->view('admin/navbar');
 		$this->load->view("admin/space-add-form",$data);
