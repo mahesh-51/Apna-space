@@ -15,7 +15,6 @@
           <th>Contact</th>
           <th>Doc Type</th>
           <th>Doc Number</th>
-          <th>Space</th>
           <th>Time Period</th>
           <th>Actions</th>
         </tr>
@@ -31,7 +30,6 @@
               <td><?php echo $data->contact; ?></td>
               <td><?php echo $data->document_type; ?></td>
               <td><?php echo $data->document_number; ?></td>
-              <td><?php echo $data->space_id; ?></td>
               <td><?php echo $data->time_period; ?></td>
               <td>
                 <button type="button" class="btn btn-primary btn-sm"><a class="text-white" href="<?php echo base_url() . 'edit-client/' . $data->id ?>">Edit</a></button>

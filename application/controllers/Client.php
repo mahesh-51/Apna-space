@@ -30,7 +30,6 @@ class Client extends CI_Controller
             'contact' => $this->input->post('contact'),
             'document_type' => $this->input->post('document_type'),
             'document_number' => $this->input->post('document_number'),
-            'space_id' => $this->input->post('space_id'),
             'time_period' => $this->input->post('time_period')
         );
         if (!empty($this->input->post('id'))) {
@@ -43,6 +42,11 @@ class Client extends CI_Controller
 
     public function edit($id)
     {
+        $data['data'] = $this->Client_Model->get_data($id);
+        $this->load->view('admin/header');
+        $this->load->view('admin/navbar');
+        $this->load->view("admin/client-add-form",$data);
+        $this->load->view('admin/footer');
     }
 
     public function update($id)
