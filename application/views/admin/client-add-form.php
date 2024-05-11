@@ -1,4 +1,9 @@
 <div class="container center">
+  <div class="row">
+        <div class="col-12 d-flex justify-content-end">
+            <button class="btn btn-dark btn-sm my-2"><a class="text-white" href="<?php echo base_url() . 'client' ?>">Back</a></button>
+        </div>
+    </div>
   <div class="card my-5">
     <div class="card-body">
       <h2 class="card-title text-center">Client Form</h2>
