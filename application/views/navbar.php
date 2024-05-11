@@ -35,9 +35,9 @@
                     <li class="has-submenu parent-menu-item">
                         <a href="<?php echo base_url() . 'services' ?>" class="sub-menu-item">Services</a></span>
                     </li>
-                    <li class="has-submenu parent-menu-item">
+                    <!-- <li class="has-submenu parent-menu-item">
                         <a href="<?php echo base_url() . 'pricing' ?>" class="sub-menu-item">Pricing</a></span>
-                    </li>
+                    </li> -->
                     <li class="has-submenu parent-menu-item">
                         <a href="<?php echo base_url() . 'benefits' ?>" class="sub-menu-item">Benefits</a></span>
                     </li>
