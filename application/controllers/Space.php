@@ -35,7 +35,6 @@ class Space extends CI_Controller
 
     public function edit($id) {
         $data['data'] = $this->Space_Model->get_space($id);
-        print_r($data);
 		$this->load->view("space-add-form",$data);
         // Load view with form pre-filled with data to edit
     }

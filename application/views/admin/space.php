@@ -2,7 +2,7 @@
   <h2 class="py-2">Space List</h2>
   <div class="row my-2">
     <div class="col-12 d-flex justify-content-end">
-      <button class="btn btn-primary btn-sm"><a class="text-white" href="<?php echo base_url() . 'add-space' ?>">Add Space</a></button>
+      <button class="btn btn-primary btn-sm"><a class="text-white" href="<?php echo base_url() . 'add' ?>">Add Space</a></button>
     </div>
   </div>
   <div class="table-responsive">
