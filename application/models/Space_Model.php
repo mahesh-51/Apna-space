@@ -4,9 +4,7 @@ if (!defined('BASEPATH')) {
   exit('No direct script access allowed');
 }
 
-/**
- * Class Payment
- */
+
 class Space_Model extends CI_Model
 {
 
