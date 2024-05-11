@@ -13,8 +13,8 @@
           <input type="text" class="form-control" id="space" name="space" placeholder="Enter space" required>
         </div>
         <div class="form-group">
-          <label for="floorNo">Floor No:</label>
-          <input type="text" class="form-control" id="floorNo" name="floorNo" placeholder="Enter floor number" required>
+          <label for="floor_no">Floor No:</label>
+          <input type="text" class="form-control" id="floor_no" name="floor_no" placeholder="Enter floor number" required>
         </div>
         <div class="form-group">
           <label for="furnished">Furnished:</label>
@@ -24,10 +24,10 @@
             <option value="No">No</option>
           </select>
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label for="area">Area:</label>
           <input type="text" class="form-control" id="area" name="area" placeholder="Enter area" required>
-        </div>
+        </div> -->
         <div class="form-group">
           <label for="price">Price:</label>
           <input type="text" class="form-control" id="price" name="price" placeholder="Enter price" required>

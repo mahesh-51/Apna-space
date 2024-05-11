@@ -23,19 +23,18 @@ class Space extends CI_Controller
 	public function create() {
         // Handle form submission to insert data
         $data = array(
-            'Space' => $this->input->post('space'),
-            'Floor_No' => $this->input->post('floor_no'),
-            'Furnished' => $this->input->post('furnished'),
-            'Area' => $this->input->post('area'),
-            'Price' => $this->input->post('price'),
-            'Availability' => $this->input->post('availability')
+            'space' => $this->input->post('space'),
+            'floor_no' => $this->input->post('floor_no'),
+            'furnished' => $this->input->post('furnished'),
+            'price' => $this->input->post('price'),
+            'availability' => $this->input->post('availability')
         );
-        $this->Space_model->insert_data($data);
-        $this->load->view('admin/space');
+        $this->Space_Model->insert_data($data);
+        redirect('space');
     }
 
     public function edit($id) {
-        $data['data'] = $this->Space_model->get_space($id);
+        $data['data'] = $this->Space_Model->get_space($id);
         print_r($data);
 		$this->load->view("space-add-form",$data);
         // Load view with form pre-filled with data to edit
@@ -51,11 +50,11 @@ class Space extends CI_Controller
             'Price' => $this->input->post('price'),
             'Availability' => $this->input->post('availability')
         );
-       $this->Property_model->update_data($id, $data);
+       $this->Space_Model->update_data($id, $data);
         // Redirect or load view accordingly
     }
 
     public function delete($id) {
-        $this->Property_model->delete_data($id);
+        $this->Space_Model->delete_data($id);
     }
 }
