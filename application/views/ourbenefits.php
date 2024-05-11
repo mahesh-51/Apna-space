@@ -96,28 +96,4 @@
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
-
-            <div class="container mt-100 mt-60" id="subscribe">
-                <div class="py-5 px-4 bg-primary rounded-pill" style="background: url('images/home/subscribe.png') center center;">
-                    <div class="row justify-content-center">
-                        <div class="col-12">
-                            <div class="section-title text-center mb-4 pb-2">
-                                <h4 class="title text-white mb-4">Subscribe our Newsletter</h4>
-                                <p class="text-white-50 mx-auto para-desc mb-0">Apna-Space offer a wealth of advantages for self starters, including networking opportunities, daily structure, and increased productivity.</p>
-                            </div>
-                        </div><!--end col-->
-
-                        <div class="col-lg-8">
-                            <div class="subcribe-form mt-4">
-                                <form>
-                                    <div class="form-group mb-0">
-                                        <input type="email" id="email" name="email" class="rounded-pill" placeholder="Your Email Id">
-                                        <button type="submit" class="btn btn-pills btn-success">Subscribe Now</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div><!--end col-->
-                    </div><!--end row-->
-                </div><!--end div-->
-            </div><!--end container-->
         </section><!--end section-->
