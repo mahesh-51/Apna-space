@@ -74,3 +74,4 @@ $route['delete-space/(:any)'] = 'space/delete/$1';
 $route['add-client'] = 'client/client_add';
 $route['add-client-create'] = 'client/create';
 $route['edit-client/(:any)'] = 'client/edit/$1';
+$route['delete-client/(:any)'] = 'client/delete/$1';
