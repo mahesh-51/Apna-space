@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '123456',
-	'database' => 'apna_space',
+	'hostname' => 'mentem.in',
+	'username' => 'mentech4_apna_space',
+	'password' => 'apna_space',
+	'database' => 'mentech4_apna_space',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
