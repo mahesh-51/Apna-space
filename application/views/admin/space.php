@@ -20,7 +20,9 @@
       </tr>
     </thead>
     <tbody>
-    <?php foreach ($spacelist as $data) : ?>
+    <?php
+    if (!empty($spacelist)) { 
+    foreach ($spacelist as $data) { ?>
         <tr>
           <td><?php echo $data->id; ?></td>
           <td><?php echo $data->type; ?></td>
@@ -34,7 +36,20 @@
             <button type="button" class="btn btn-danger btn-sm my-1">Delete</button>
           </td>
         </tr>
-      <?php endforeach; ?>
+        <?php
+      }
+      } else {
+        ?>
+        <tr>
+          <td colspan="9">     
+            <div class="text-center h5">
+              <strong>No Record Found</strong>
+            </div>
+          </td>
+        </tr>
+      <?php
+      }
+      ?>
     </tbody>
   </table>
 </div>
