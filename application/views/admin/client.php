@@ -15,7 +15,7 @@
           <th>Contact</th>
           <th>Doc Type</th>
           <th>Doc Number</th>
-          <th>Time Period</th>
+          <th>Time Period (in days)</th>
           <th>Actions</th>
         </tr>
       </thead>

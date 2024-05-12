@@ -18,9 +18,11 @@
   </div>
   <div>
     <ul class="navbar-nav ml-auto">
-      <button class="btn btn-danger">
-        <a class="text-white" href="<?php echo base_url() . 'logout' ?>">Logout</a>
-      </button>
+      <a class="text-white" href="<?php echo base_url() . 'logout' ?>">
+        <button class="btn btn-danger">
+          Logout
+        </button>
+      </a>
     </ul>
   </div>
 </nav>
