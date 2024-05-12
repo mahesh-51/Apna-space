@@ -1,7 +1,7 @@
 <div class="container center">
   <div class="row">
     <div class="col-12 d-flex justify-content-end">
-      <button class="btn btn-dark btn-sm my-2"><a class="text-white" href="<?php echo base_url() . 'client' ?>">Back</a></button>
+    <a class="text-white" href="<?php echo base_url() . 'client' ?>"><button class="btn btn-dark btn-sm my-2">Back</button></a>
     </div>
   </div>
   <div class="card my-5">
@@ -19,7 +19,7 @@
         </div>
         <div class="form-group">
           <label for="contact">Contact:</label>
-          <input type="text" id="contact" name="contact" class="form-control" required placeholder="Enter your contact number" value="<?php echo isset($data['contact']) ? $data['contact'] : ''; ?>">
+          <input type="text" id="contact" name="contact" class="form-control" maxlength="10" required placeholder="Enter your contact number" value="<?php echo isset($data['contact']) ? $data['contact'] : ''; ?>">
         </div>
         <div class="form-group">
           <label for="document_type">Document Type:</label>
@@ -34,7 +34,7 @@
         </div>
         <div class="form-group">
           <label for="document_number">Document Number:</label>
-          <input type="text" id="document_number" name="document_number" class="form-control" required placeholder="Enter document number" value="<?php echo isset($data['document_number']) ? $data['document_number'] : ''; ?>">
+          <input type="text" id="document_number" name="document_number" maxlength="16" class="form-control" required placeholder="Enter document number" value="<?php echo isset($data['document_number']) ? $data['document_number'] : ''; ?>">
         </div>
         <!-- <div class="form-group">
           <label for="space_id">Space:</label>

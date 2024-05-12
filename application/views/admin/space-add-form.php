@@ -1,7 +1,7 @@
 <div class="container center">
   <div class="row">
     <div class="col-12 d-flex justify-content-end">
-      <button class="btn btn-dark btn-sm my-2"><a class="text-white" href="<?php echo base_url() . 'space' ?>">Back</a></button>
+    <a class="text-white" href="<?php echo base_url() . 'space' ?>"><button class="btn btn-dark btn-sm my-2">Back</button></a>
     </div>
   </div>
   <div class="card my-5">

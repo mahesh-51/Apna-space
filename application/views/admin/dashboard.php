@@ -17,7 +17,7 @@
 <div class="container p-4">
   <h2>Welcome to Your Dashboard</h2>
   <div class="row py-5">
-    <div class="col-md-4">
+    <!-- <div class="col-md-4">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Statistics</h5>
@@ -27,7 +27,7 @@
           <a href="#" class="btn btn-primary">View Statistics</a>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="col-md-4">
       <div class="card">
         <div class="card-body">
